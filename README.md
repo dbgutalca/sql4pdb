@@ -33,13 +33,15 @@ SQL4PDB provides a simple user interface to query the data by using the SQL quer
 In order to use this tool it's necesary to meet the following requirements:
 
 <ul>
-  <li>Java version ...</li>
-  <li>PostgreSQL installation</li>
+  <li>Java version 8 (https://www.java.com/en/download/ie_manual.jsp)</li>
+  <li>PostgreSQL installation (https://www.postgresql.org/download/)</li>
   <li> <b>Optional: </b>A local download of PDB files. You can find a download script in the file download.sh</li>
 </ul>
 
 <h1>Installation</h1>
-<p>After meeting the requirements, download the PDB2SQL Jar file and complete the configuration.conf file. In this file you must complete this information:</p>
+<p><b>Create a new PDB database:</b>  Create a new database with the SQL sentences found in DB_tables.txt file (The database tables must have the same names as the file).</p>
+
+<p><b>Download the PDB2SQL Jar file:</b> Once downloaded, fill the configuration.conf file. In this file you must complete this information:</p>
 
 <p><b>URL</b>= Direction where the postgreSQL database is located, i.e: localhost:5432/PDB_server</p>
 <p><b>USER</b>= PostgreSQL username</p>
@@ -56,3 +58,11 @@ In order to use this tool it's necesary to meet the following requirements:
 <p><b>Option 3: Create a sample database.</b></p>
 <p>Creates a database with 11 PDB entries. Use this option if you want to check the functionality of the database.</p>
 <h1>PDB files that are not considerated</h1>
+<p>The following types of files are not considered during the execution of the application:</p>
+<ul>
+<li>DNA/RNA entries.</li>
+<li>Entries with RNA or ELECTRON CRISTALOGRAPHY experiment.</li>
+<li>Entries with aminoacids located in an alphanumeric position within a chain.</li>
+<li>Entries that has a different aminoacid in a chain (Not standard).</li>
+<li>Entries without aminoacid chains or without SEQRES record.</li>
+</ul>
