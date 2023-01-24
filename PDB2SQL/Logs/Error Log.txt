@@ -1,5 +1,0 @@
-Execution started at 2023-01-12T13:38:46.442266100
-There is no error
----------------------------
-
-Execution ended at: 2023-01-12T13:38:46.442266100
