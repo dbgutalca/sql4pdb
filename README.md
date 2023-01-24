@@ -39,7 +39,7 @@ In order to use this tool it's necesary to meet the following requirements:
 </ul>
 
 <h1>Installation</h1>
-<p><b>Create a new PDB database:</b>  Create a new database with the SQL sentences found in DB_tables.txt file (The database tables must have the same names as the file).</p>
+<p><b>Create a new PDB database:</b>  To create a new PDB database, see option 4 in usage section.</p>
 
 <p><b>Download the PDB2SQL Jar file:</b> Once downloaded, fill the configuration.conf file. In this file you must complete this information:</p>
 
@@ -50,13 +50,15 @@ In order to use this tool it's necesary to meet the following requirements:
 <p><b>DIR</b>= Directory of your local PDB files, i.e: /home/pdb-files</p>
 
 <h1>Usage</h1>
-<p>To use PDB2SQL, open a command prompt in the directory where PDB2SQL is located, then put the following command: <b>java -jar PDB2SQL.jar.</b>  Once opened, there is a menu asking you which option do you want</p>
+<p>To use PDB2SQL, open a command prompt in the directory where PDB2SQL is located, then put the following command: <b>java -jar PDB2SQL.jar.</b>  Once opened, there is a menu asking you which option do you want.</p>
 <p><b>Option 1: To start PDB - SQL conversion.</b></p>
 <p>Start the conversion of every PDB files stored in the directory given by the DIR option of configuration.conf file. Then you will see the current PDB file that is being parsed and the number of the current PDB file with the total PDB files stored locally. It may take a long time to store every PDB file.</p>
 <p><b>Option 2: Fill database by a given list.</b></p>
 <p>Download every PDB file wrote in PDB_ID option of configuration.conf file, then the tool is executed normally. Use this option if you want to store a personalized proteins.</p>
 <p><b>Option 3: Create a sample database.</b></p>
 <p>Creates a database with 11 PDB entries. Use this option if you want to check the functionality of the database.</p>
+<p><b>Option 4: Create a new PDB database.</b></p>
+<p>Use this option if it is the first time using the tool and you already have PostgreSQL installed. With this option, you will create a database with every table required for a further use. You must put in configuration.conf you URL without the database name and a slash ('/') at the end in order to create a new one, i.e localhost:5432/</p>
 <h1>PDB files that are not considerated</h1>
 <p>The following types of files are not considered during the execution of the application:</p>
 <ul>
