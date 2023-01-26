@@ -39,7 +39,6 @@ In order to use this tool it's necesary to meet the following requirements:
 </ul>
 
 <h1>Installation</h1>
-<p><b>Create a new PDB database:</b>  To create a new PDB database, see option 4 in usage section.</p>
 
 <p><b>Download the PDB2SQL Jar file:</b> Once downloaded, fill the configuration.conf file. In this file you must complete this information:</p>
 
@@ -49,12 +48,14 @@ In order to use this tool it's necesary to meet the following requirements:
 <p><b>PDB_ID</b>= List of protein names separated by coma, i.e: [7ENG, 1AFK, 1AFR]</p>
 <p><b>DIR</b>= Directory of your local PDB files, i.e: /home/pdb-files</p>
 
+<p><b>Create a new PDB database:</b>  To create a new PDB database, see option 4 in usage section. Once the database is created you can use Pgadmin or psql command prompt to make queries in the database.</p>
+
 <h1>Usage</h1>
 <p>To use PDB2SQL, open a command prompt in the directory where PDB2SQL is located, then put the following command: <b>java -jar PDB2SQL.jar.</b>  Once opened, there is a menu asking you which option do you want.</p>
 <p><b>Option 1: To start PDB - SQL conversion.</b></p>
 <p>Start the conversion of every PDB files stored in the directory given by the DIR option of configuration.conf file. Then you will see the current PDB file that is being parsed and the number of the current PDB file with the total PDB files stored locally. It may take a long time to store every PDB file.</p>
 <p><b>Option 2: Fill database by a given list.</b></p>
-<p>Download every PDB file wrote in PDB_ID option of configuration.conf file, then the tool is executed normally. Use this option if you want to store a personalized proteins.</p>
+<p>Download every PDB file wrote in PDB_ID option of configuration.conf file, then the tool is executed normally. Use this option if you want to store a personalized proteins. The protein list names must be between brackets ('[]') and separated by coma.</p>
 <p><b>Option 3: Create a sample database.</b></p>
 <p>Creates a database with 11 PDB entries. Use this option if you want to check the functionality of the database.</p>
 <p><b>Option 4: Create a new PDB database.</b></p>
