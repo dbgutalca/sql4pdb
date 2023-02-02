@@ -40,7 +40,7 @@ In order to use this tool it's necesary to meet the following requirements:
 <p><b>Step 5:</b> At this point, you will have an empty database created so you can use the other options to fill the database.</p>
 
 <h1>PDB files download</h1>
-<p>To download every pdb file you have to use the script <b>download.sh</b>. For this, open a command prompt, go to the download.sh directory and the put the command <b>./download.sh</b>. For windows users, you have to install WSL (https://learn.microsoft.com/en-us/windows/wsl/install) first an then do the same command secuence. After that, you will have every pdb file located in a folder named <b>pdb-files</b>. Use this directory in DIR section in configuration.conf file in order to store every posible pdb file in the database.</p>
+<p>To download every pdb file you have to use the script <b>download.sh</b>. For this, open a command prompt, go to the download.sh directory and the put the command <b>./download.sh</b>. For windows users, you have to install WSL (https://learn.microsoft.com/en-us/windows/wsl/install) first an then do the same command secuence. After that, you will have every pdb file located in a folder named <b>pdb-files</b>. Use this directory in DIR section in configuration.conf file in order to store every posible pdb file in the database. The pdb files will be downloaded as a compressed .ENT format but it works and have the same information of a .PDB file</p>
 <h1>PDB files that are not considerated</h1>
 <p>The following types of files are not considered during the execution of the application:</p>
 <ul>
