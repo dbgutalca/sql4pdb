@@ -32,7 +32,7 @@ In order to use this tool it's necesary to meet the following requirements:
 <h1>Database creation</h1>
 <p>On this section, you will create a new database with this tool step by step.</p>
 <p><b>Step 1:</b> Download the SQL4PDB Jar file. Click the code button of github and the download ZIP.</p>
-<p><b>Step 2:</b> Fill the configuration.conf file. This is the most important file and it must be filled with this information for a correct behavior of the application.</p>
+<p><b>Step 2:</b> Fill the configuration.conf file. This is the most important file and it must be filled with this information for a correct behavior of the application. You can open this file with every text editor.</p>
 <ul>
 <li><p><b>URL</b>= Direction where the postgreSQL database is located. To create a new database in your local PC use the following URL: localhost:5432.</p></li>
 <li><p><b>USER</b>= PostgreSQL username. Usually, the default username created in the installation of PostgreSQL is <b>postgres</b></p></li>
