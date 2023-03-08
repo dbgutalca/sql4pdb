@@ -22,7 +22,7 @@ In order to use this tool it's necesary to meet the following requirements:
 <p><b>Step 2:</b> Fill the configuration.conf file. This is the most important file and it must be filled with this information for a correct behavior of the application. You can open this file with every text editor.</p>
 <ul>
 <li><p><b>URL</b>= Direction where the postgreSQL database is located. To create a new database in your local PC use the following URL: localhost:5432.</p></li>
-<li><p><b>USER</b>= PostgreSQL username. Usually, the default username created in the installation of PostgreSQL is <b>postgres</b></p></li>
+<li><p><b>USER</b>= PostgreSQL username. Usually, the default username created in the installation of PostgreSQL is <b>postgres</b>.</p></li>
 <li><p><b>PASSWORD</b>= PostgreSQL password.</p></li>
 <li><p><b>PDB_ID</b>= List of protein names separated by coma, i.e: [7ENG, 1AFK, 1AFR].</p></li>
 <li><p><b>DIR</b>= Directory of your local PDB files, i.e: /home/pdb-files.</p></li>
