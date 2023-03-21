@@ -5,7 +5,7 @@
 <h1>Application download</h1>
 <p>The application and every file needed to execute it is contained in SQL4PDB rar file, you can download it by pressing the following link: <br></p>
 <span><img src="https://user-images.githubusercontent.com/31783838/113711005-ccdc3880-96ba-11eb-9d3e-d4c030020985.png" />
-<a href = "https://github.com/dbgutalca/sql4pdb/raw/main/SQL4PDB.rar"> <b>SQL4PDB.rar</b></a></span>
+<a href = "https://github.com/dbgutalca/sql4pdb/raw/main/SQL4PDB.zip"> <b>SQL4PDB.zip</b></a></span>
 
 <h1>Requirements</h1>
 In order to use this tool it's necesary to meet the following requirements:
